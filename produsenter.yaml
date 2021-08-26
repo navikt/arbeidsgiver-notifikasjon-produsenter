@@ -1,0 +1,23 @@
+# Skjema:
+# <<produsent-navn>>:
+#   merkelapper:
+#     - <<merkelapp 1>>
+#     - <<merkelapp 2>>
+#     - << ... >>
+#   mottakere:
+#     - serviceCode: <<service code>>
+#       serviceEdition: <<service code edition>>
+#     - << .... >>
+#     - nærmesteLeder
+#
+# Eksempel:
+# 
+# innsyn-i-aareg:
+#   subjects:
+#     - 
+#   merkelapper:
+#     - arbeidsforhold
+#   mottakere:
+#     - serviceCode: 1234
+#       serviceEdition: 1
+#     - nærmesteLeder
