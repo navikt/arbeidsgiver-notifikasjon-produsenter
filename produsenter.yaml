@@ -1,9 +1,13 @@
 # Skjema:
-# <<produsent-navn>>:
+# <<tjeneste-id>>: 
+#   teamNavn: <<navn på team>>
+#   slack: <<kanal hvor vi kan nå dere>>
+#   accessPolicy:
+#     - <<cluster>>:<<namespace>>:<<app>>
 #   merkelapper:
 #     - <<merkelapp 1>>
 #     - <<merkelapp 2>>
-#     - << ... >>
+#     - <<..>>
 #   mottakere:
 #     - serviceCode: <<service code>>
 #       serviceEdition: <<service code edition>>
@@ -13,8 +17,9 @@
 # Eksempel:
 # 
 # innsyn-i-aareg:
-#   subjects:
-#     - 
+#   accessPolicy:
+#     - dev-gcp:fager:innsyn-i-aareg-api
+#     - prod-gcp:fager:innsyn-i-aareg-api
 #   merkelapper:
 #     - arbeidsforhold
 #   mottakere:
