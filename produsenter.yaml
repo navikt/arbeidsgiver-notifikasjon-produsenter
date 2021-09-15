@@ -27,15 +27,23 @@
 #       serviceEdition: 1
 #     - nærmesteLeder
 
-
 arbeidsgiver-tiltak:
   teamNavn: Team-tiltak
   slack: "#arbeidsgiver-tiltak"
   bruksvilkårGodkjent: false
   accessPolicy:
     - dev-gcp:arbeidsgiver:tiltak-refusjon-api
+    - dev-fss:arbeidsgiver:tiltak-tiltaksgjennomforing-api
   merkelapper:
     - Tiltak
   mottakere:
     - serviceCode: 4936
+      serviceEdition: 1
+    - serviceCode: 5516
+      serviceEdition: 1
+    - serviceCode: 5516
+      serviceEdition: 2
+    - serviceCode: 5516
+      serviceEdition: 3
+    - serviceCode: 5332
       serviceEdition: 1
