@@ -39,3 +39,21 @@ arbeidsgiver-tiltak:
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
+
+arbeidsgiver-tiltak:
+  teamNavn: Team-tiltak
+  slack: "#arbeidsgiver-tiltak"
+  bruksvilkårGodkjent: false
+  accessPolicy:
+    - dev-fss:arbeidsgiver:tiltak-tiltaksgjennomforing-api
+  merkelapper:
+    - Tiltak
+  mottakere:
+    - ltsMidlertidigServiceCode: 5516
+      ltsMidlertidigServiceEdition: 1
+      ltsVarigServiceCode: 5516
+      ltsVarigServiceEdition: 2
+      sommerjobbServiceCode: 5516
+      sommerjobbServiceEdition: 3
+      arbtreningServiceCode: 5332
+      arbtreningServiceEdition: 1
