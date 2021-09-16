@@ -33,7 +33,7 @@ arbeidsgiver-tiltak:
   bruksvilkårGodkjent: false
   accessPolicy:
     - dev-gcp:arbeidsgiver:tiltak-refusjon-api
-    - dev-fss:arbeidsgiver:tiltak-tiltaksgjennomforing-api
+    - dev-fss:arbeidsgiver:tiltaksgjennomforing-api
   merkelapper:
     - Tiltak
   mottakere:
