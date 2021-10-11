@@ -35,7 +35,10 @@ arbeidsgiver-tiltak:
     - dev-gcp:arbeidsgiver:tiltak-refusjon-api
     - dev-fss:arbeidsgiver:tiltaksgjennomforing-api
   merkelapper:
-    - Tiltak
+    - Lønnstilskudd
+    - Mentor
+    - Sommerjobb
+    - Arbeidstrening
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
