@@ -30,7 +30,7 @@
 arbeidsgiver-tiltak:
   teamNavn: Team-tiltak
   slack: "#arbeidsgiver-tiltak"
-  bruksvilkårGodkjent: false
+  bruksvilkårGodkjent: true
   accessPolicy:
     - dev-gcp:arbeidsgiver:tiltak-refusjon-api
     - dev-fss:arbeidsgiver:tiltaksgjennomforing-api
