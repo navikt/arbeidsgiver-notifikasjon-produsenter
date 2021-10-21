@@ -34,6 +34,7 @@ arbeidsgiver-tiltak:
   accessPolicy:
     - dev-gcp:arbeidsgiver:tiltak-refusjon-api
     - dev-fss:arbeidsgiver:tiltaksgjennomforing-api
+    - prod-fss:arbeidsgiver:tiltaksgjennomforing-api
   merkelapper:
     - Lønnstilskudd
     - Mentor
