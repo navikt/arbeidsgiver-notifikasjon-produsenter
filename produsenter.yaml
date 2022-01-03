@@ -61,4 +61,6 @@ esyfovarsel:
     - prod-fss:team-esyfo:esyfovarsel
   merkelapper:
     - Aktivitetskrav
+  mottakere:
+    - nærmesteLeder
 
