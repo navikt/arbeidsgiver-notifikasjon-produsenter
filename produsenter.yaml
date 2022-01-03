@@ -51,3 +51,16 @@ arbeidsgiver-tiltak:
       serviceEdition: 3
     - serviceCode: 5332
       serviceEdition: 1
+
+esyfovarsel:
+  teamNavn: team-esyfo
+  slack: "#esyfo"
+  bruksvilkårGodkjent: false
+  accessPolicy:
+    - dev-fss:team-esyfo:esyfovarsel
+    - prod-fss:team-esyfo:esyfovarsel
+  merkelapper:
+    - Aktivitetskrav
+  mottakere:
+    - nærmesteLeder
+
