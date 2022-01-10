@@ -57,8 +57,8 @@ esyfovarsel:
   slack: "#esyfo"
   bruksvilkårGodkjent: false
   accessPolicy:
-    - dev-fss:team-esyfo:esyfovarsel
-    - prod-fss:team-esyfo:esyfovarsel
+    - dev-fss:team-esyfo:esyfovarsel-job
+    - prod-fss:team-esyfo:esyfovarsel-job
   merkelapper:
     - Aktivitetskrav
   mottakere:
