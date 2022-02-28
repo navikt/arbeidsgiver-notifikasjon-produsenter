@@ -61,9 +61,11 @@ permittering-og-nedbemanning:
     - dev-gcp:permittering-og-nedbemanning:permitteringsportal-api
     - prod-gcp:permittering-og-nedbemanning:permitteringsportal-api
   merkelapper:
-    - Permitteringsportal
+    - Permittering
   mottakere:
-    - rolle: DAGL
+    - rolle: DAGL # Daglig leder / adm. direktør (enhetsregisteret)
+    - rolle: LEDE # Styrets leder (enhetsregisteret)
+    - altinnReportee
 
 esyfovarsel:
   teamNavn: team-esyfo
