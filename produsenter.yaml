@@ -58,12 +58,12 @@ permittering-og-nedbemanning:
   slack: "#arbeidsgiver-permittering-og-nedbemanning"
   bruksvilkårGodkjent: 2022-02-28
   accessPolicy:
-    dev-gcp: permittering-og-nedbemanning:permitteringsportal-api
-    prod-gcp: permittering-og-nedbemanning:permitteringsportal-api
+    - dev-gcp:permittering-og-nedbemanning:permitteringsportal-api
+    - prod-gcp:permittering-og-nedbemanning:permitteringsportal-api
   merkelapper:
     - Permitteringsportal
   mottakere:
-    - roleDefinitionId: 160
+    - rolle: DAGL
 
 esyfovarsel:
   teamNavn: team-esyfo
