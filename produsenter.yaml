@@ -53,6 +53,18 @@ arbeidsgiver-tiltak:
     - serviceCode: 5332
       serviceEdition: 1
 
+permittering-og-nedbemanning:
+  teamNavn: permittering-og-nedbemmaning
+  slack: "#arbeidsgiver-permittering-og-nedbemanning"
+  bruksvilkårGodkjent: 2022-02-28
+  accessPolicy:
+    dev-gcp: permitteringsportal-api
+    prod-gcp: permitteringsportal-api
+  merkelapper:
+    - Permitteringsportal
+  mottakere:
+    - roleDefinitionId: 160
+
 esyfovarsel:
   teamNavn: team-esyfo
   slack: "#esyfo"
