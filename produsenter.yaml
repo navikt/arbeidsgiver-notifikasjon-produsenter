@@ -53,6 +53,20 @@ arbeidsgiver-tiltak:
     - serviceCode: 5332
       serviceEdition: 1
 
+permittering-og-nedbemanning:
+  teamNavn: permittering-og-nedbemmaning
+  slack: "#arbeidsgiver-permittering-og-nedbemanning"
+  bruksvilkårGodkjent: 2022-02-28
+  accessPolicy:
+    - dev-gcp:permittering-og-nedbemanning:permitteringsportal-api
+    - prod-gcp:permittering-og-nedbemanning:permitteringsportal-api
+  merkelapper:
+    - Permittering
+  mottakere:
+    - rolle: DAGL # Daglig leder / adm. direktør (enhetsregisteret)
+    - rolle: LEDE # Styrets leder (enhetsregisteret)
+    - altinnReportee
+
 esyfovarsel:
   teamNavn: team-esyfo
   slack: "#esyfo"
