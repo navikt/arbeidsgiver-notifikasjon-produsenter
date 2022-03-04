@@ -53,7 +53,7 @@ arbeidsgiver-tiltak:
     - serviceCode: 5332
       serviceEdition: 1
 
-permittering-og-nedbemanning:
+permitteringsportal-api:
   teamNavn: permittering-og-nedbemmaning
   slack: "#arbeidsgiver-permittering-og-nedbemanning"
   bruksvilkårGodkjent: 2022-02-28
