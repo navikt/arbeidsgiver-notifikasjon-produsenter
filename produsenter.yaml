@@ -53,13 +53,12 @@ arbeidsgiver-tiltak:
     - serviceCode: 5332
       serviceEdition: 1
 
-permitteringsportal-api:
+permitteringsmelding-notifikasjon:
   teamNavn: permittering-og-nedbemmaning
-  slack: "#arbeidsgiver-permittering-og-nedbemanning"
-  bruksvilkårGodkjent: 2022-02-28
+  slack: "#permittering-og-nedbemanning-utvikling"
+  bruksvilkårGodkjent: 2022-03-23
   accessPolicy:
-    - dev-gcp:permittering-og-nedbemanning:permitteringsportal-api
-    - prod-gcp:permittering-og-nedbemanning:permitteringsportal-api
+    - dev-gcp:permittering-og-nedbemanning:permitteringsmelding-notifikasjon
   merkelapper:
     - Permittering
   mottakere:
