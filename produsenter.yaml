@@ -78,3 +78,15 @@ esyfovarsel:
   mottakere:
     - nærmesteLeder
 
+fritakagp:
+  teamNavn: helsearbeidsgiver
+  slack: "#helsearbeidsgiver"
+  bruksvilkårGodkjent: 2022-04-19
+  accessPolicy:
+    - dev-gcp:helsearbeidsgiver:fritakagp
+    - prod-fss:helsearbeidsgiver:fritakagp
+  merkelapper:
+    - Refusjon
+  mottakere:
+    - serviceCode: 4936
+      serviceEdition: 1
