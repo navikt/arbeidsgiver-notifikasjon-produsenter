@@ -80,7 +80,7 @@ esyfovarsel:
 
 fritakagp:
   teamNavn: helsearbeidsgiver
-  slack: "#helsearbeidsgiver"
+  slack: "#helse-arbeidsgiver"
   bruksvilkårGodkjent: 2022-04-19
   accessPolicy:
     - dev-gcp:helsearbeidsgiver:fritakagp
