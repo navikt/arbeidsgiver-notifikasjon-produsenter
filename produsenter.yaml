@@ -59,12 +59,15 @@ permitteringsmelding-notifikasjon:
   bruksvilkårGodkjent: 2022-03-23
   accessPolicy:
     - dev-gcp:permittering-og-nedbemanning:permitteringsmelding-notifikasjon
+    - prod-gcp:permittering-og-nedbemanning:permitteringsmelding-notifikasjon
   merkelapper:
     - Permittering
+    - Nedbemanning
+    - Innskrenking av arbeidstid
   mottakere:
     - rolle: DAGL # Daglig leder / adm. direktør (enhetsregisteret)
     - rolle: LEDE # Styrets leder (enhetsregisteret)
-    - altinnReportee
+    - rolle: REGN # Regnskapsfører
 
 esyfovarsel:
   teamNavn: team-esyfo
