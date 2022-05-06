@@ -69,20 +69,16 @@ permitteringsmelding-notifikasjon:
     - rolle: LEDE # Styrets leder (enhetsregisteret)
     - rolle: REGN # Regnskapsfører
 
-esyfovarsel-fss:
-  teamNavn: team-esyfo
-  slack: "#esyfo"
-  bruksvilkårGodkjent: false
-  accessPolicy:
-    - dev-fss:team-esyfo:esyfovarsel
-    - prod-fss:team-esyfo:esyfovarsel
-esyfovarsel-gcp:
+esyfovarsel:
   teamNavn: team-esyfo
   slack: "#esyfo"
   bruksvilkårGodkjent: false
   accessPolicy:
     - dev-gcp:team-esyfo:esyfovarsel
-    - prod-gcp:team-esyfo:esyfovarsel
+    - dev-fss:team-esyfo:esyfovarsel
+    # bruksvilkår enda ikke godkjent
+    # - prod-gcp:team-esyfo:esyfovarsel
+    # - prod-fss:team-esyfo:esyfovarsel
   merkelapper:
     - Aktivitetskrav
   mottakere:
