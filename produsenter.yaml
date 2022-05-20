@@ -65,9 +65,8 @@ permitteringsmelding-notifikasjon:
     - Nedbemanning
     - Innskrenking av arbeidstid
   mottakere:
-    - rolle: DAGL # Daglig leder / adm. direktør (enhetsregisteret)
-    - rolle: LEDE # Styrets leder (enhetsregisteret)
-    - rolle: REGN # Regnskapsfører
+    - serviceCode: 5810
+      serviceEdition: 1
 
 esyfovarsel:
   teamNavn: team-esyfo
