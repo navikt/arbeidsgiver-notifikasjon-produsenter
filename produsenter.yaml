@@ -71,13 +71,12 @@ permitteringsmelding-notifikasjon:
 esyfovarsel:
   teamNavn: team-esyfo
   slack: "#esyfo"
-  bruksvilkårGodkjent: false
+  bruksvilkårGodkjent: true
   accessPolicy:
     - dev-gcp:team-esyfo:esyfovarsel
     - dev-fss:team-esyfo:esyfovarsel
-    # bruksvilkår enda ikke godkjent
-    # - prod-gcp:team-esyfo:esyfovarsel
-    # - prod-fss:team-esyfo:esyfovarsel
+    - prod-gcp:team-esyfo:esyfovarsel
+    - prod-fss:team-esyfo:esyfovarsel
   merkelapper:
     - Aktivitetskrav
   mottakere:
