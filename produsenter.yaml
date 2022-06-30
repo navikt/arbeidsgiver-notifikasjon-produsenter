@@ -88,8 +88,9 @@ fritakagp:
   bruksvilkårGodkjent: 2022-04-19
   accessPolicy:
     - dev-gcp:helsearbeidsgiver:fritakagp
+    - prod-gcp:helsearbeidsgiver:fritakagp
   merkelapper:
-    - Refusjon
+    - Fritak arbeidsgiverperiode
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
