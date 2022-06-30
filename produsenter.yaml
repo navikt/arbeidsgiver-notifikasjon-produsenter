@@ -90,7 +90,7 @@ fritakagp:
     - dev-gcp:helsearbeidsgiver:fritakagp
     - prod-gcp:helsearbeidsgiver:fritakagp
   merkelapper:
-    - Refusjon
+    - Fritak arbeidsgiverperiode
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
