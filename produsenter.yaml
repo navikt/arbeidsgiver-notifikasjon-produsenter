@@ -53,6 +53,8 @@ arbeidsgiver-tiltak:
       serviceEdition: 3
     - serviceCode: 5332
       serviceEdition: 1
+    - serviceCode: 5212
+      serviceEdition: 1
 
 permitteringsmelding-notifikasjon:
   teamNavn: permittering-og-nedbemmaning
