@@ -30,7 +30,7 @@
 
 arbeidsgiver-tiltak:
   teamNavn: Team-tiltak
-  slack: "#arbeidsgiver-tiltak"
+  slack: "#arbeidsgiver-toi-dev"
   bruksvilkårGodkjent: 2021-10-19
   accessPolicy:
     - dev-gcp:arbeidsgiver:tiltak-refusjon-api
@@ -41,6 +41,7 @@ arbeidsgiver-tiltak:
     - Mentor
     - Sommerjobb
     - Arbeidstrening
+    - Inkluderingstilskudd
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
