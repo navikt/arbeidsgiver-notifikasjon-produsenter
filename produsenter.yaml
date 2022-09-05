@@ -51,10 +51,14 @@ arbeidsgiver-tiltak:
       serviceEdition: 2
     - serviceCode: 5516
       serviceEdition: 3
+    - serviceCode: 5516
+      serviceEdition: 4
+    - serviceCode: 5516
+      serviceEdition: 5
     - serviceCode: 5332
-      serviceEdition: 1
-    - serviceCode: 5212
-      serviceEdition: 1
+      serviceEdition: 
+        prod: 2
+        other: 1
 
 permitteringsmelding-notifikasjon:
   teamNavn: permittering-og-nedbemmaning
