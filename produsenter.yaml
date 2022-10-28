@@ -81,11 +81,10 @@ esyfovarsel:
   bruksvilkårGodkjent: true
   accessPolicy:
     - dev-gcp:team-esyfo:esyfovarsel
-    - dev-fss:team-esyfo:esyfovarsel
     - prod-gcp:team-esyfo:esyfovarsel
-    - prod-fss:team-esyfo:esyfovarsel
   merkelapper:
-    - Aktivitetskrav
+    - Oppfølging
+    - Dialogmøte
   mottakere:
     - nærmesteLeder
 
