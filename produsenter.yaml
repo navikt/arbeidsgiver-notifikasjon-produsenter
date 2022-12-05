@@ -100,3 +100,16 @@ fritakagp:
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
+
+im-notifikasjon:
+  teamNavn: helsearbeidsgiver
+  slack: "#helse-arbeidsgiver"
+  bruksvilkårGodkjent: 2022-12-05
+  accessPolicy:
+    - dev-gcp:helsearbeidsgiver:im-notifikasjon
+#    - prod-gcp:helsearbeidsgiver:im-notifikasjon
+  merkelapper:
+    - Inntektsmelding
+  mottakere:
+    - serviceCode: 4936
+      serviceEdition: 1
