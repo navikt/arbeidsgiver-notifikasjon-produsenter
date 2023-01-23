@@ -113,3 +113,15 @@ im-notifikasjon:
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
+
+toi-arbeidsgiver-notifikasjon:
+  teamNavn: toi
+  slack: "#arbeidsgiver-toi"
+  bruksvilkårGodkjent: false
+  accessPolicy:
+    - dev-gcp:toi:toi-arbeidsgiver-notifikasjon
+  merkelapper:
+    - Kandidater
+  mottakere:
+    - serviceCode: 5078
+      serviceEdition: 1
