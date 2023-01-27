@@ -117,9 +117,10 @@ im-notifikasjon:
 toi-arbeidsgiver-notifikasjon:
   teamNavn: toi
   slack: "#arbeidsgiver-toi"
-  bruksvilkårGodkjent: false
+  bruksvilkårGodkjent: 2023-01-27
   accessPolicy:
     - dev-gcp:toi:toi-arbeidsgiver-notifikasjon
+    - prod-gcp:toi:toi-arbeidsgiver-notifikasjon
   merkelapper:
     - Kandidater
   mottakere:
