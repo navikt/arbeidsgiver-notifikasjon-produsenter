@@ -125,3 +125,15 @@ toi-arbeidsgiver-notifikasjon:
   mottakere:
     - serviceCode: 5078
       serviceEdition: 1
+
+arbeidsgiver-dialog:
+  teamNavn: Team-Dialog
+  slack: "#arbeidsgiver-crm"
+  bruksvilkårGodkjent: 2023-02-14
+  accessPolicy:
+    - dev-gcp:team-dialog:crm-arbeidsgiver-notifikasjon
+  merkelapper:
+    - Lønnstilskudd
+  mottakere:
+    - serviceCode: 5516
+      serviceEdition: 1
