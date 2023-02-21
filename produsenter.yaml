@@ -133,7 +133,7 @@ arbeidsgiver-dialog:
   accessPolicy:
     - dev-gcp:team-dialog:crm-arbeidsgiver-notifikasjon
   merkelapper:
-    - Midlertidig Lønnstilskudd
+    - Lønnstilskudd
   mottakere:
     - serviceCode: 5516
       serviceEdition: 1
