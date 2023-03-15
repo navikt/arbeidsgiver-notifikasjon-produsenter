@@ -131,7 +131,7 @@ arbeidsgiver-dialog:
   slack: "#arbeidsgiver-crm"
   bruksvilkårGodkjent: 2023-02-14
   accessPolicy:
-    - dev-gcp:team-dialog:crm-arbeidsgiver-notifikasjon
+    - dev-external:teamcrm:salesforce
   merkelapper:
     - Lønnstilskudd
   mottakere:
