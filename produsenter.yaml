@@ -106,7 +106,7 @@ im-notifikasjon:
   bruksvilkårGodkjent: 2022-12-05
   accessPolicy:
     - dev-gcp:helsearbeidsgiver:im-notifikasjon
-#    - prod-gcp:helsearbeidsgiver:im-notifikasjon
+    - prod-gcp:helsearbeidsgiver:im-notifikasjon
   merkelapper:
     - Inntektsmelding
   mottakere:
