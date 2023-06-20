@@ -131,8 +131,8 @@ arbeidsgiver-dialog:
   slack: "#arbeidsgiver-crm"
   bruksvilkårGodkjent: 2023-02-14
   accessPolicy:
-    - dev-external:teamcrm:salesforce
-    - prod-external:teamcrm:salesforce
+    - dev-gcp:teamcrm:saas-proxy
+    - prod-gcp:teamcrm:saas-proxy
   merkelapper:
     - Lønnstilskudd
   mottakere:
