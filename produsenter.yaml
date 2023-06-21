@@ -132,7 +132,9 @@ arbeidsgiver-dialog:
   bruksvilkårGodkjent: 2023-02-14
   accessPolicy:
     - dev-gcp:teamcrm:saas-proxy
+    - dev-external:teamcrm:salesforce
     - prod-gcp:teamcrm:saas-proxy
+    - prod-external:teamcrm:salesforce
   merkelapper:
     - Lønnstilskudd
   mottakere:
