@@ -148,7 +148,7 @@ yrkesskade-notifikasjon:
   accessPolicy:
     - dev-gcp:yrkesskade:yrkesskade-melding-mottak
   merkelapper:
-    - Innsendt skademelding
+    - Skademelding
   mottakere:
     - serviceCode: 5902
       serviceEdition: 1
