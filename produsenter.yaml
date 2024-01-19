@@ -140,3 +140,15 @@ arbeidsgiver-dialog:
   mottakere:
     - serviceCode: 5516
       serviceEdition: 1
+
+yrkesskade-notifikasjon:
+  teamNavn: Team-Yrkesskade
+  slack: "#team-yrkesskade"
+  bruksvilkårGodkjent: false
+  accessPolicy:
+    - dev-gcp:yrkesskade:yrkesskade-melding-mottak
+  merkelapper:
+    - Skademelding
+  mottakere:
+    - serviceCode: 5902
+      serviceEdition: 1
