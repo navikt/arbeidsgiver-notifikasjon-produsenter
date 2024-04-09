@@ -144,9 +144,10 @@ arbeidsgiver-dialog:
 yrkesskade-notifikasjon:
   teamNavn: Team-Yrkesskade
   slack: "#team-yrkesskade"
-  bruksvilkårGodkjent: false
+  bruksvilkårGodkjent: 2024-04-09
   accessPolicy:
     - dev-gcp:yrkesskade:yrkesskade-melding-mottak
+    - prod-gcp:yrkesskade:yrkesskade-melding-mottak
   merkelapper:
     - Skademelding
   mottakere:
