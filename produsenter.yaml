@@ -153,3 +153,20 @@ yrkesskade-notifikasjon:
   mottakere:
     - serviceCode: 5902
       serviceEdition: 1
+
+fp-inntektsmelding-notifikasjon:
+  teamNavn: teamforeldrepenger
+  slack: "#teamforeldrepenger"
+  bruksvilkårGodkjent: false
+  accessPolicy:
+    - dev-fss:teamforeldrepenger:ftinntektsmelding
+  merkelapper:
+    - Inntektsmelding foreldrepenger
+    - Inntektsmelding svangerskapspenger
+    - Inntektsmelding omsorgspenger
+    - Inntektsmelding pleiepenger sykt barn
+    - Inntektsmelding pleiepenger i livets sluttfase
+    - Inntektsmelding opplæringspenger
+  mottakere:
+    - serviceCode: 4936
+      serviceEdition: 1
