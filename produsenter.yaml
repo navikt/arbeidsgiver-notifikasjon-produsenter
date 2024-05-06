@@ -160,7 +160,6 @@ fp-inntektsmelding-notifikasjon:
   bruksvilkårGodkjent: false
   accessPolicy:
     - dev-fss:teamforeldrepenger:ftinntektsmelding
-    - prod-fss:teamforeldrepenger:ftinntektsmelding
   merkelapper:
     - Inntektsmelding foreldrepenger
     - Inntektsmelding svangerskapspenger
