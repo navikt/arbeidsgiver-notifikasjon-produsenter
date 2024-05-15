@@ -110,6 +110,7 @@ im-notifikasjon:
     - prod-gcp:helsearbeidsgiver:im-notifikasjon
   merkelapper:
     - Inntektsmelding
+    - Inntektsmelding sykepenger
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
