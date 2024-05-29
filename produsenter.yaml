@@ -157,18 +157,14 @@ yrkesskade-notifikasjon:
       serviceEdition: 1
 
 fp-inntektsmelding-notifikasjon:
-  teamNavn: teamforeldrepenger
+  teamNavn: Team Foreldrepenger
   slack: "#teamforeldrepenger"
   bruksvilkårGodkjent: false
   accessPolicy:
-    - dev-fss:teamforeldrepenger:ftinntektsmelding
+    - dev-gcp:teamforeldrepenger:ftinntektsmelding
   merkelapper:
     - Inntektsmelding foreldrepenger
     - Inntektsmelding svangerskapspenger
-    - Inntektsmelding omsorgspenger
-    - Inntektsmelding pleiepenger sykt barn
-    - Inntektsmelding pleiepenger i livets sluttfase
-    - Inntektsmelding opplæringspenger
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
