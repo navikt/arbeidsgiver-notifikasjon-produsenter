@@ -1,5 +1,5 @@
 # Skjema:
-# <<tjeneste-id>>: 
+# <<tjeneste-id>>:
 #   teamNavn: <<navn på team>>
 #   slack: <<kanal hvor vi kan nå dere>>
 #   accessPolicy:
@@ -15,7 +15,7 @@
 #     - nærmesteLeder
 #
 # Eksempel:
-# 
+#
 # innsyn-i-aareg:
 #   accessPolicy:
 #     - dev-gcp:fager:innsyn-i-aareg-api
@@ -56,7 +56,7 @@ arbeidsgiver-tiltak:
     - serviceCode: 5516
       serviceEdition: 5
     - serviceCode: 5332
-      serviceEdition: 
+      serviceEdition:
         prod: 2
         other: 1
 
@@ -165,6 +165,21 @@ fp-inntektsmelding-notifikasjon:
   merkelapper:
     - Inntektsmelding foreldrepenger
     - Inntektsmelding svangerskapspenger
+    - Inntektsmelding omsorgspenger
+    - Inntektsmelding pleiepenger sykt barn
+    - Inntektsmelding pleiepenger i livets sluttfase
+    - Inntektsmelding opplæringspenger
+  mottakere:
+    - serviceCode: 4936
+      serviceEdition: 1
+
+k9-inntektsmelding-notifikasjon:
+  teamNavn: Sykdom i familien
+  slack: "#sykdom-i-familien"
+  bruksvilkårGodkjent: false
+  accessPolicy:
+    - dev-gcp:k9saksbehandling:k9-inntektsmelding
+  merkelapper:
     - Inntektsmelding omsorgspenger
     - Inntektsmelding pleiepenger sykt barn
     - Inntektsmelding pleiepenger i livets sluttfase
