@@ -169,6 +169,19 @@ fp-inntektsmelding-notifikasjon:
     - serviceCode: 4936
       serviceEdition: 1
 
+fp-inntektsmelding-notifikasjon-ny-app-navn:
+  teamNavn: Team Foreldrepenger
+  slack: "#teamforeldrepenger"
+  bruksvilkårGodkjent: false
+  accessPolicy:
+    - dev-gcp:teamforeldrepenger:fpinntektsmelding
+  merkelapper:
+    - Inntektsmelding foreldrepenger
+    - Inntektsmelding svangerskapspenger
+  mottakere:
+    - serviceCode: 4936
+      serviceEdition: 1
+
 k9-inntektsmelding-notifikasjon:
   teamNavn: Sykdom i familien
   slack: "#sykdom-i-familien"
