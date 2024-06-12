@@ -139,9 +139,12 @@ arbeidsgiver-dialog:
     - prod-external:teamcrm:salesforce
   merkelapper:
     - Lønnstilskudd
+    - Arbeidstrening
   mottakere:
     - serviceCode: 5516
       serviceEdition: 1
+    - serviceCode: 5332
+      serviceEdition: 2
 
 yrkesskade-notifikasjon:
   teamNavn: Team-Yrkesskade
