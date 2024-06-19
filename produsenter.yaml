@@ -166,7 +166,6 @@ fp-inntektsmelding-notifikasjon:
   slack: "#teamforeldrepenger"
   bruksvilkårGodkjent: false
   accessPolicy:
-    - dev-gcp:teamforeldrepenger:ftinntektsmelding
     - dev-gcp:teamforeldrepenger:fpinntektsmelding
   merkelapper:
     - Inntektsmelding foreldrepenger
