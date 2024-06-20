@@ -32,7 +32,6 @@ arbeidsgiver-tiltak:
   slack: "#arbeidsgiver-tiltak"
   bruksvilkårGodkjent: 2021-10-19
   accessPolicy:
-    - dev-gcp:arbeidsgiver:tiltak-refusjon-api
     - dev-fss:arbeidsgiver:tiltaksgjennomforing-api
     - prod-fss:arbeidsgiver:tiltaksgjennomforing-api
     - dev-gcp:team-tiltak:tiltak-notifikasjon
