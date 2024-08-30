@@ -35,6 +35,7 @@ arbeidsgiver-tiltak:
     - dev-fss:arbeidsgiver:tiltaksgjennomforing-api
     - prod-fss:arbeidsgiver:tiltaksgjennomforing-api
     - dev-gcp:team-tiltak:tiltak-notifikasjon
+    - prod-gcp:team-tiltak:tiltak-notifikasjon
   merkelapper:
     - Lønnstilskudd
     - Mentor
