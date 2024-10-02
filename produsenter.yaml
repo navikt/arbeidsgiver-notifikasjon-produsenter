@@ -108,6 +108,8 @@ im-notifikasjon:
   accessPolicy:
     - dev-gcp:helsearbeidsgiver:im-notifikasjon
     - prod-gcp:helsearbeidsgiver:im-notifikasjon
+    - dev-gcp:helsearbeidsgiver:hag-admin
+    - prod-gcp:helsearbeidsgiver:hag-admin
   merkelapper:
     - Inntektsmelding
     - Inntektsmelding sykepenger
