@@ -166,9 +166,10 @@ yrkesskade-notifikasjon:
 fp-inntektsmelding-notifikasjon:
   teamNavn: Team Foreldrepenger
   slack: "#teamforeldrepenger"
-  bruksvilkårGodkjent: false
+  bruksvilkårGodkjent: 2024-10-02
   accessPolicy:
     - dev-gcp:teamforeldrepenger:fpinntektsmelding
+    - prod-gcp:teamforeldrepenger:fpinntektsmelding
   merkelapper:
     - Inntektsmelding foreldrepenger
     - Inntektsmelding svangerskapspenger
