@@ -74,6 +74,7 @@ permitteringsmelding-notifikasjon:
   mottakere:
     - serviceCode: 5810
       serviceEdition: 1
+    - ressursId: nav_permittering-og-nedbemmaning_innsyn-i-alle-innsendte-meldinger
 
 esyfovarsel:
   teamNavn: team-esyfo
