@@ -183,9 +183,10 @@ fp-inntektsmelding-notifikasjon:
 k9-inntektsmelding-notifikasjon:
   teamNavn: Sykdom i familien
   slack: "#sykdom-i-familien"
-  bruksvilkårGodkjent: false
+  bruksvilkårGodkjent: 2025-01-29
   accessPolicy:
     - dev-gcp:k9saksbehandling:k9-inntektsmelding
+    - prod-gcp:k9saksbehandling:k9-inntektsmelding
   merkelapper:
     - Inntektsmelding omsorgspenger
     - Inntektsmelding pleiepenger sykt barn
