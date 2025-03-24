@@ -192,6 +192,7 @@ k9-inntektsmelding-notifikasjon:
     - Inntektsmelding pleiepenger sykt barn
     - Inntektsmelding pleiepenger i livets sluttfase
     - Inntektsmelding opplæringspenger
+    - Refusjonskrav for omsorgspenger
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
