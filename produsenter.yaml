@@ -44,8 +44,6 @@ arbeidsgiver-tiltak:
     - Inkluderingstilskudd
     - Varig tilrettelagt arbeid
   mottakere:
-    - serviceCode: 4936
-      serviceEdition: 1
     - serviceCode: 5516
       serviceEdition: 1
     - serviceCode: 5516
