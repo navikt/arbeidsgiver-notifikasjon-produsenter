@@ -77,6 +77,17 @@ permitteringsmelding-notifikasjon:
       serviceEdition: 1
     - ressursId: nav_permittering-og-nedbemmaning_innsyn-i-alle-innsendte-meldinger
 
+melosys-skjema-api-notifikasjon:
+  teamNavn: teammelosys
+  slack: "#team-melosys"
+  bruksvilkårGodkjent: avventer, ønsker kun tilgang til dev for testing
+  accessPolicy:
+    - dev-gcp:teammelosys:melosys-skjema-api
+  merkelapper:
+    - Utsendt arbeidstaker
+  mottakere:
+    - ressursId: test-fager
+
 esyfovarsel:
   teamNavn: team-esyfo
   slack: "#esyfo"
