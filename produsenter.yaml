@@ -214,7 +214,7 @@ ekspertbistand:
   slack: "#team-fager"
   bruksvilkårGodkjent: false
   accessPolicy:
-    - dev-gcp:fager:ekspertbistand-api
+    - dev-gcp:fager:ekspertbistand-backend
   merkelapper:
     - Ekspertbistand
   mottakere:
