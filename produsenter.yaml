@@ -208,3 +208,14 @@ k9-inntektsmelding-notifikasjon:
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
+
+ekspertbistand:
+  teamNavn: fager
+  slack: "#team-fager"
+  bruksvilkårGodkjent: false
+  accessPolicy:
+    - dev-gcp:fager:ekspertbistand-api
+  merkelapper:
+    - Ekspertbistand
+  mottakere:
+    - ressursId: nav_tiltak_ekspertbistand
