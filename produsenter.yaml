@@ -212,9 +212,10 @@ k9-inntektsmelding-notifikasjon:
 ekspertbistand:
   teamNavn: fager
   slack: "#team-fager"
-  bruksvilkårGodkjent: false
+  bruksvilkårGodkjent: 2026-02-06
   accessPolicy:
     - dev-gcp:fager:ekspertbistand-backend
+    - prod-gcp:fager:ekspertbistand-backend
   merkelapper:
     - Ekspertbistand
   mottakere:
