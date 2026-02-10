@@ -129,6 +129,7 @@ im-notifikasjon:
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
+    - ressursId: nav_sykepenger_inntektsmelding
 
 toi-arbeidsgiver-notifikasjon:
   teamNavn: toi
