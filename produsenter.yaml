@@ -192,6 +192,7 @@ fp-inntektsmelding-notifikasjon:
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
+    - ressursId: nav_foreldrepenger_inntektsmelding
 
 k9-inntektsmelding-notifikasjon:
   teamNavn: Sykdom i familien
