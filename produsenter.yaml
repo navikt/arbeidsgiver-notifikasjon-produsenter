@@ -210,6 +210,7 @@ k9-inntektsmelding-notifikasjon:
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
+    - ressursId: nav_sykdom-i-familien_inntektsmelding
 
 ekspertbistand:
   teamNavn: fager
