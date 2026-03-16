@@ -113,6 +113,7 @@ fritakagp:
   mottakere:
     - serviceCode: 4936
       serviceEdition: 1
+    - ressursId: nav_sykepenger_fritak-arbeidsgiverperiode
 
 im-notifikasjon:
   teamNavn: helsearbeidsgiver
