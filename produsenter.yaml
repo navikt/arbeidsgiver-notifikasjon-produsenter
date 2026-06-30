@@ -43,6 +43,7 @@ arbeidsgiver-tiltak:
     - Arbeidstrening
     - Inkluderingstilskudd
     - Varig tilrettelagt arbeid
+    - Tiltaksrefusjon
   mottakere:
     - serviceCode: 5516
       serviceEdition: 1
