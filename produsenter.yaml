@@ -134,6 +134,21 @@ im-notifikasjon:
       serviceEdition: 1
     - ressursId: nav_sykepenger_inntektsmelding
 
+dialog:
+  teamNavn: helsearbeidsgiver
+  slack: "#helse-arbeidsgiver"
+  bruksvilkårGodkjent: 2026-08-05
+  accessPolicy:
+    - dev-gcp:helsearbeidsgiver:dialog
+    - prod-gcp:helsearbeidsgiver:dialog
+  merkelapper:
+    - Sykmelding
+    - Søknad om sykepenger
+  mottakere:
+    - ressursId: nav_sykepenger_sykmelding
+    - ressursId: nav_sykepenger_soeknad
+
+
 toi-arbeidsgiver-notifikasjon:
   teamNavn: toi
   slack: "#arbeidsgiver-toi"
