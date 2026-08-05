@@ -92,10 +92,12 @@ melosys-skjema-api-notifikasjon:
 esyfovarsel:
   teamNavn: team-esyfo
   slack: "#esyfo"
-  bruksvilkårGodkjent: true
+  bruksvilkårGodkjent: "2022-24-05"
   accessPolicy:
     - dev-gcp:team-esyfo:esyfovarsel
     - prod-gcp:team-esyfo:esyfovarsel
+    - dev-gcp:team-esyfo:syfo-budstikka
+    - prod-gcp:team-esyfo:syfo-budstikka
   merkelapper:
     - Oppfølging
     - Dialogmøte
@@ -226,17 +228,4 @@ ekspertbistand:
     - Ekspertbistand
   mottakere:
     - ressursId: nav_tiltak_ekspertbistand
-
-esyfovarsel:
-  teamNavn: team-esyfo
-  slack: "#esyfo"
-  bruksvilkårGodkjent: "2026-08-05"
-  accessPolicy:
-    - dev-gcp:team-esyfo:syfo-budstikka
-    - prod-gcp:team-esyfo:syfo-budstikka
-  merkelapper:
-    - Oppfølging
-    - Dialogmøte
-  mottakere:
-    - nærmesteLeder
-    - ressursId: nav_syfo_dialogmote
+    
