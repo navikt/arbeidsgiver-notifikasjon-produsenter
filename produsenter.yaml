@@ -226,3 +226,17 @@ ekspertbistand:
     - Ekspertbistand
   mottakere:
     - ressursId: nav_tiltak_ekspertbistand
+
+esyfovarsel:
+  teamNavn: team-esyfo
+  slack: "#esyfo"
+  bruksvilkårGodkjent: "2026-08-05"
+  accessPolicy:
+    - dev-gcp:team-esyfo:syfo-budstikka
+    - prod-gcp:team-esyfo:syfo-budstikka
+  merkelapper:
+    - Oppfølging
+    - Dialogmøte
+  mottakere:
+    - nærmesteLeder
+    - ressursId: nav_syfo_dialogmote
