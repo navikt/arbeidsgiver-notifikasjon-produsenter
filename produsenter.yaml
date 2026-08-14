@@ -9,9 +9,7 @@
 #     - <<merkelapp 2>>
 #     - <<..>>
 #   mottakere:
-#     - serviceCode: <<service code>>
-#       serviceEdition: <<service code edition>>
-#     - << .... >>
+#     - ressursId: nav_<domene>_<tjeneste>   # Altinn 3
 #     - nærmesteLeder
 #
 # Eksempel:
@@ -23,8 +21,7 @@
 #   merkelapper:
 #     - arbeidsforhold
 #   mottakere:
-#     - serviceCode: 1234
-#       serviceEdition: 1
+#     - ressursId: nav_aareg_innsyn
 #     - nærmesteLeder
 
 arbeidsgiver-tiltak:
@@ -45,22 +42,17 @@ arbeidsgiver-tiltak:
     - Varig tilrettelagt arbeid
     - Tiltaksrefusjon
   mottakere:
-    - serviceCode: 5516
-      serviceEdition: 1
-    - serviceCode: 5516
-      serviceEdition: 2
-    - serviceCode: 5516
-      serviceEdition: 3
-    - serviceCode: 5516
-      serviceEdition: 4
-    - serviceCode: 5516
-      serviceEdition: 5
-    - serviceCode: 5516
-      serviceEdition: 6
-    - serviceCode: 5332
-      serviceEdition:
-        prod: 2
-        other: 1
+    - ressursId: nav_tiltak_arbeidstrening
+    - ressursId: nav_tiltak_tiltaksrefusjon
+    - ressursId: nav_tiltak_midlertidig-lonnstilskudd
+    - ressursId: nav_tiltak_varig-lonnstilskudd
+    - ressursId: nav_tiltak_sommerjobb
+    - ressursId: nav_tiltak_mentor
+    - ressursId: nav_tiltak_inkluderingstilskudd
+    - ressursId: nav_tiltak_varig-tilrettelagt-arbeid-ordinaer
+    - ressursId: nav_tiltak_adressesperre
+    - ressursId: nav_tiltak_firearig-lonnstilskudd
+    - ressursId: nav_tiltak_tilskuddsbrev
 
 permitteringsmelding-notifikasjon:
   teamNavn: permittering-og-nedbemmaning
@@ -74,8 +66,6 @@ permitteringsmelding-notifikasjon:
     - Nedbemanning
     - Innskrenking av arbeidstid
   mottakere:
-    - serviceCode: 5810
-      serviceEdition: 1
     - ressursId: nav_permittering-og-nedbemmaning_innsyn-i-alle-innsendte-meldinger
 
 melosys-skjema-api-notifikasjon:
@@ -115,8 +105,6 @@ fritakagp:
   merkelapper:
     - Fritak arbeidsgiverperiode
   mottakere:
-    - serviceCode: 4936
-      serviceEdition: 1
     - ressursId: nav_sykepenger_fritak-arbeidsgiverperiode
 
 im-notifikasjon:
@@ -132,8 +120,6 @@ im-notifikasjon:
     - Inntektsmelding
     - Inntektsmelding sykepenger
   mottakere:
-    - serviceCode: 4936
-      serviceEdition: 1
     - ressursId: nav_sykepenger_inntektsmelding
 
 dialog:
@@ -161,8 +147,7 @@ toi-arbeidsgiver-notifikasjon:
   merkelapper:
     - Kandidater
   mottakere:
-    - serviceCode: 5078
-      serviceEdition: 1
+    - ressursId: nav_rekruttering_kandidater
 
 arbeidsgiver-dialog:
   teamNavn: Team-Dialog
@@ -177,12 +162,8 @@ arbeidsgiver-dialog:
     - Lønnstilskudd
     - Arbeidstrening
   mottakere:
-    - serviceCode: 5516
-      serviceEdition: 1
-    - serviceCode: 5332
-      serviceEdition:
-        prod: 2
-        other: 1
+    - ressursId: nav_tiltak_midlertidig-lonnstilskudd
+    - ressursId: nav_tiltak_arbeidstrening
 
 yrkesskade-notifikasjon:
   teamNavn: Team-Yrkesskade
@@ -196,8 +177,7 @@ yrkesskade-notifikasjon:
   merkelapper:
     - Skademelding
   mottakere:
-    - serviceCode: 5902
-      serviceEdition: 1
+    - ressursId: nav_yrkesskade_skademelding
 
 fp-inntektsmelding-notifikasjon:
   teamNavn: Team Foreldrepenger
@@ -210,8 +190,6 @@ fp-inntektsmelding-notifikasjon:
     - Inntektsmelding foreldrepenger
     - Inntektsmelding svangerskapspenger
   mottakere:
-    - serviceCode: 4936
-      serviceEdition: 1
     - ressursId: nav_foreldrepenger_inntektsmelding
 
 k9-inntektsmelding-notifikasjon:
@@ -228,8 +206,6 @@ k9-inntektsmelding-notifikasjon:
     - Inntektsmelding opplæringspenger
     - Refusjonskrav for omsorgspenger
   mottakere:
-    - serviceCode: 4936
-      serviceEdition: 1
     - ressursId: nav_sykdom-i-familien_inntektsmelding
 
 ekspertbistand:
